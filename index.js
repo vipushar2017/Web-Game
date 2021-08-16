@@ -19,22 +19,22 @@
  function winner(){
    if (randomenumber1 === 2 && randomenumber2 === 1)
      document.getElementById("games-title-h3").innerHTML = "OOPS!!!";
-     //com=com+1;
+     com=com+1;
     else if (randomenumber1 === 2 && randomenumber2 === 3)
      document.getElementById("games-title-h3").innerHTML = "CONGO!!!";
-     //play=play+1;
+     play=play+1;
     else if (randomenumber1 === 1 && randomenumber2 === 2)
      document.getElementById("games-title-h3").innerHTML = "CONGO!!!";
-     //play=play+1;
+     play=play+1;
    else if (randomenumber1 === 1 && randomenumber2 === 3)
      document.getElementById("games-title-h3").innerHTML = "OOPS!!!";
-     //com=com+1;
+     com=com+1;
    else if (randomenumber1 === 3 && randomenumber2 === 2)
      document.getElementById("games-title-h3").innerHTML = "OOPS!!!";
-     //com=com+1;
+     com=com+1;
    else if (randomenumber1 === 3 && randomenumber2 === 1)
      document.getElementById("games-title-h3").innerHTML = "CONGO!!!";
-     //play=play+1;
+     play=play+1;
    else
      document.getElementById("games-title-h3").innerHTML = "Draw!!!";
  
