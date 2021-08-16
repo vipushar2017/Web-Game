@@ -1,9 +1,9 @@
  var randomenumber1 = Math.floor(Math.random() * 3) + 1;
- var selectimage = "images" + "\\" + randomenumber1 + ".png";
+ var selectimage = randomenumber1 + ".png";
  document.getElementsByTagName("img")[0].setAttribute("src", selectimage);
 
  var randomenumber2 = Math.floor(Math.random() * 3) + 1;
- var selectimage = "images" + "\\" + randomenumber2 + ".png";
+ var selectimage = randomenumber2 + ".png";
  document.getElementsByTagName("img")[1].setAttribute("src", selectimage);
 
  document.querySelector("a").addEventListener("click", winner);
